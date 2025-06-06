@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./BookMyShow.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/caa6494be0.js" crossorigin="anonymous"></script>
+    <title>Project-1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search_section">
+            <!-- <img src="./download.png" class="logo"/> -->
+            <span class="logo">book my show</span>
+            <input type="text" placeholder="  Search for Movies,Events, Plays, Sports and Activities" class="search_ele"/>
+            <select class="drop_bar">
+                <option>Mumbai</option>
+                <option>Delhi-NCR</option>
+                <option>Bengaluru</option>
+                <option>Hyderabad</option>
+                <option></option>
+            </select>
+            <button class="sign_in">Sign In</button>
+            <div class="hamburger_cont"><i class="fa-solid fa-bars hamburger_icon"></i></div>
+        </div>
+        <nav class="nav_section">
+            <ul class="nav_list_1">
+                <li><a href="#movies_section">Movies</a></li>
+                <li><a href="#premiere_section">Stream</a></li>
+                <li><a href="#event_section">Events</a></li>
+                <li><a href="#music_section">Music</a></li>
+                <li><a href="#sports_section">Sports</a></li>
+                <li><a href="#activities_section">Activities</a></li>
+            </ul>
+            <ul class="nav_list_2">
+                <li>ListYourShow</li>
+                <li>Corporates</li>
+                <li>offers</li>
+                <li>GiftCards</li>
+            </ul>
+        </nav>
+        <div class="carosul_cont"><img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1706382336630_web.jpg" class="img1"/></div>
+        <main>
+            <div>
+            <div class="movies_head">
+                <h1 class="sub_head">Recommended Movies</h1>
+                <h1 class="see_all">See All ></h1>
+            </div>
+            <div class="rec_movie_imgs_cont" id="movies_section">
+                <div class="img_card">
+                    <img src="./movies_img/bairavam.avif" class="rec_movie_img hover1"/>
+                    <p class="movie_name">Ooru Peru Bhairavakona</p>
+                    <p class="movie_zoner">Adventure/Fantasy/Thriller</p>
+                </div>
+                <div class="img_card">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICAxOC4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00389637-utgnfetsba-portrait.jpg" class="rec_movie_img hover1"/>
+                    <p class="movie_name">Premalu</p>
+                    <p class="movie_zoner">Comedy/Romantic</p>
+                </div>
+                <div class="img_card">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgODUuOEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00384234-namrszxlsp-portrait.jpg" class="rec_movie_img hover1"/>
+                    <p class="movie_name">Shaitaan</p>
+                    <p class="movie_zoner">Supernatural/Thriller</p>
+                </div>
+                <div class="img_card">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny44LzEwICAyNS43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00379050-nncvqtgwdr-portrait.jpg" class="rec_movie_img hover1"/>
+                    <p class="movie_name">Crakk-Jeetegaa toh Jiyegaa</p>
+                    <p class="movie_zoner">Action/Thriller</p>
+                </div>
+                <div class="img_card">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICAzLjdLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00369210-hphaarqywg-portrait.jpg" class="rec_movie_img hover1"/>
+                    <p class="movie_name">Sundaram Master</p>
+                    <p class="movie_zoner">Comedy/Drama</p>
+                </div>
+            </div>
+        </div>
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" class="template hover1"/>
+        <div class="events_section" id="event_section">
+            <h1 class="events_head" >The Best Live Events</h1>
+            <div class="events_cont">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NDArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png" class="events_img hover2"/>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-zone-collection-202211140440.png" class="events_img hover2"/>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NjArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png" class="events_img hover2"/>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png" class="events_img hover2"/>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/upskill-collection-202211140440.png" class="events_img hover2"/>
+            </div>
+            <section class="premiere_cont" id="premiere_section">
+                <div class="premiere_head_cont">
+                    <div class="premiere_play_cont"><i class="fa-solid fa-play premiere_play"></i></div>
+                    <div class="premiere_head">
+                        <h1 style="margin-top: -6px;">PREMIERE</h1>
+                        <p style="margin-top: -15px;">Watch new movies at every Friday</p>
+                    </div>
+                </div>
+                <div class="premiere_movies_cont">
+                    <div class="premiere_sub_head">
+                        <h1 class="premiere1">Premieres</h1>
+                        <h1 class="premiere2">See All ></h1>
+                    </div>
+                    <div class="premiere_images">
+                        <div class="img_card" >
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00343041-cfvzelfnnh-portrait.jpg" class="rec_movie_img hover3"/>
+                            <p class="movie_name" style="color:white">Aazam</p>
+                            <p class="movie_zoner"  style="color:white">Hindi</p>
+                        </div>
+                        <div class="img_card" >
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00387342-jyyqjmmran-portrait.jpg" class="rec_movie_img hover3"/>
+                            <p class="movie_name" style="color:white">Lights Out</p>
+                            <p class="movie_zoner"  style="color:white">English</p>
+                        </div>
+                        <div class="img_card" >
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00353846-wyjhjwbjla-portrait.jpg" class="rec_movie_img hover3"/>
+                            <p class="movie_name" style="color:white">Decibel</p>
+                            <p class="movie_zoner"  style="color:white">Korean</p>
+                        </div>
+                        <div class="img_card" >
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00367848-jwrfcqswml-portrait.jpg" class="rec_movie_img hover3"/>
+                            <p class="movie_name" style="color:white">Paramporal</p>
+                            <p class="movie_zoner"  style="color:white">Tamil</p>
+                        </div>
+                        <div class="img_card" >
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00377811-pmjunzvrrm-portrait.jpg" class="rec_movie_img hover3"/>
+                            <p class="movie_name" style="color:white">Kastoori The Musk</p>
+                            <p class="movie_zoner" style="color:white">Hindi</p>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <section>
+                <div class="Music" id="music_section">
+                    <div class="premiere_sub_head">
+                        <h1 class="premiere1" style="color:black; margin-right: 800px;">Your Music Studio</h1>
+                        <h1 class="premiere2">See All ></h1>
+                    </div>
+                    <div class="rec_movie_imgs_cont" id="movies_section">
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA5IE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00381486-ntutalmdun-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">SANAM BAND Live concert - Hyderabad</p>
+                            <p class="movie_zoner">Heart Cup Coffee:Gandipet Music Festivals</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyMiBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00385691-qcxwjvubge-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Sunitha Upadrasta - Live concert</p>
+                            <p class="movie_zoner">Shilpakala Vedika: Hyderabad Concerts</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAzIE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00386815-blkbzwsmgf-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Sunday Soulmate Hyderabad</p>
+                            <p class="movie_zoner">HITEX Exibhition Center: Hyderabad Concerts</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNiBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00388127-xgzxlsjkyy-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">X-Festival: Hyderabad's-biggest Music Festival</p>
+                            <p class="movie_zoner">Heart Cup Coffee:Gandipet Concerts</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNiBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00373677-gsnwqqaunu-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">ED Sheeran: +-=xTour</p>
+                            <p class="movie_zoner">Mahalaxmi Race Course: Mumbai Concerts</p>
+                        </div>
+                    </div>
+                    <div class="Sports" id="sports_section">
+                        <div class="premiere_sub_head">
+                            <h1 class="premiere1" style="color:black; margin-right: 700px;">Top Games and Sports Events </h1>
+                            <h1 class="premiere2">See All ></h1>
+                        </div>
+                        <div class="rec_movie_imgs_cont">
+                            <div class="img_card">
+                                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-TW9uLCA0IE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00387740-gggkccspey-portrait.jpg" class="rec_movie_img hover1"/>
+                                <p class="movie_name">TATA WPL 2024</p>
+                                <p class="movie_zoner">Multiple Venues</p>
+                            </div>
+                            <div class="img_card">
+                                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-V2VkLCAyOCBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00387835-tacqdmskvh-portrait.jpg" class="rec_movie_img hover1"/>
+                                <p class="movie_name">Pro Kabaddi League - Season 10</p>
+                                <p class="movie_zoner">Multiple Venues</p>
+                            </div>
+                            <div class="img_card">
+                                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyIE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00387493-dqktcnxngw-portrait.jpg" class="rec_movie_img hover1"/>
+                                <p class="movie_name">Sunday Soulmate Hyderabad</p>
+                                <p class="movie_zoner">HITEX Exibhition Center: Hyderabad Concerts</p>
+                            </div>
+                            <div class="img_card">
+                                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyIE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00388329-emfmdczsnt-portrait.jpg" class="rec_movie_img hover1"/>
+                                <p class="movie_name">WPL Royal Challangers vs Mumbai Indians</p>
+                                <p class="movie_zoner">M.Chinnaswamy Stadium - Bengaluru</p>
+                            </div>
+                            <div class="img_card">
+                                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-TW9uLCA0IE1hcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00387497-wtvprvgumr-portrait.jpg" class="rec_movie_img hover1"/>
+                                <p class="movie_name">WPL UP Warriorz vs Royal Challangers</p>
+                                <p class="movie_zoner">M.Chinnaswamy Stadium - Bengaluru</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </section>
+            <section>
+                <h1>Trending Searches Right Now</h1>
+                <div class="trending_searches">
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Aritcle 370</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">operation Valentine</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Dune-Part 2</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Oye(Telugu)</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Aarya</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Premalu</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Samarasimha Reddy</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card" style="grid-column-start: 2;grid-column-end: 5;">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Surya Son of Krishnan (Telugu)</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Simhadri</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                    <div class="small_card">
+                        <p style="color:red; margin-left:15px; font-weight:600;margin-top: 11px">Hanu-man</p>
+                        <p style="color:black; margin-top: -16px; margin-left:15px">Movies</p>
+                    </div>
+                </div>
+                <div class="Sports" style="margin-top: 25px;" id="activities_section">
+                    <div class="premiere_sub_head">
+                        <h1 class="premiere1" style="color:black; margin-right: 700px;">Explore Fun Activities</h1>
+                        <h1 class="premiere2">See All ></h1>
+                    </div>
+                    <div class="rec_movie_imgs_cont">
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAyOSBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00368456-euzddzjutj-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name"> Day Outing @ Deccan Trails</p>
+                            <p class="movie_zoner">Deccan Trails: Vikarabad</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAyOSBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00378517-qqkkvqwydc-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Day Outing Jalavihar - Water Park</p>
+                            <p class="movie_zoner">Jalavihar Water Park: Hyderabad</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAyOSBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00305503-cetjxlzkma-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Wild Waters Amusement Park</p>
+                            <p class="movie_zoner">WWAP: Hyderabad</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAyOSBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00364486-kekbgkjbyn-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Explore @ Fly Zone - Sarath City Mall</p>
+                            <p class="movie_zoner">Fly Zone: Kondapur</p>
+                        </div>
+                        <div class="img_card">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAyOSBGZWIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00361510-vxsxcnbghd-portrait.jpg" class="rec_movie_img hover1"/>
+                            <p class="movie_name">Ramoji Film City Star Experience</p>
+                            <p class="movie_zoner">Ramoji Film City: Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <footer>
+                <div style="display: flex;">
+                    <p><i class="fa-solid fa-house-flag" style="font-size: 30px; margin-right:7px; margin-left:30px"></i>List your show, Got a show, event, activity or a great experience?Partner with us & get listed on BookMyShow </p>
+                    <button class="footer_btn">Contact Today!</button>
+                </div>
+                <div class="footer_icons_cont">
+                   <div>
+                    <i class="fa-solid fa-headset foot_icon"></i><br/>
+                    <span class="it">24/7 CUSTOMER SUPPORT</span>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-ticket foot_icon"></i><br/>
+                    <span class="it">RESEND BOOKING CONFIRMATION</span>
+                   </div>
+                   <div>
+                    <i class="fa-regular fa-envelope-open foot_icon"></i><br/>
+                    <span class="it">SUSCRIBE TO NEWSLETTER</span>
+                   </div>
+                </div>
+                <div class="footer_content">
+                    <p>MOVIES NOW SHOWING IN HYDERABAD</p>
+                    <p style="margin-top:-6px">Dune:Part2 | Ooru Peru Bhairavakonda | Hanu-man | Article 370</p>
+                    <p style="margin-top:20px">UPCOMING MOVIES IN HYDERABAD</p>
+                    <p style="margin-top:-6px">Mangai | May December | Kreem | The Zone Of Interest | The Spoils</p>
+                    <p style="margin-top:20px">MOVIES BY GENRE</p>
+                    <p style="margin-top:-6px">Drama Movies | Action Movies | Thriller Movies | Comedy Movies</p>
+                    <p style="margin-top:20px">COUNTRIES</p>
+                    <P style="margin-top:-6px">Indonesia | Singapore | UAE | Sri Lanka | West Indies</P>
+                    <p style="margin-top:20px">HELP</p>
+                    <p style="margin-top:-6px">About us | Contact us | Press Release | Current Opening | Terms and Conditions | Privacy Policy</p>
+                </div>
+            </footer>
+        </div>
+        </main>
+    </div>
+</body>
+</html>
